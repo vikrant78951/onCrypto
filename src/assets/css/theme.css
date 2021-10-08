@@ -1,0 +1,42 @@
+:root {
+  /* color form liht theme  */
+  --black: rgba(0, 0, 0, 1);
+  --default-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  --default-shadow-dark: 0 2px 10px rgba(0, 0, 0, 0.15);
+  --body-background-light: #fff;
+  --element-background-light: rgba(0, 0, 0, 0.1);
+  --border-light: rgba(0, 0, 0, 0.1);
+  --pallet-light: #4cb6b6;
+  --pallet-hover-light: #009797;
+
+  /* color form dark theme */
+  --white: rgba(255, 255, 255, 1);
+  --default-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  --default-shadow-dark: 0 2px 10px rgba(0, 0, 0, 0.15);
+  --body-background-dark: #26242e;
+  --element-background-dark: #34323d;
+  --border-dark: rgba(0, 0, 0, 0.1);
+  --pallet-dark: #7372fc;
+  --pallet-hover-dark: #7347b9;
+}
+
+.light {
+  --color: var(--black);
+  --shadow: var(--default-shadow);
+  --shadow-dark: var(--default-shadow-dark);
+  --body-background: var(--body-background-light);
+  --element-background: var(--element-background-light);
+  --border: var(--border-light);
+  --pallet: var(--pallet-light);
+  --pallet-hover: var(--pallet-hover-light);
+}
+.dark {
+  --color: var(--white);
+  --shadow: var(--default-shadow);
+  --shadow-dark: var(--default-shadow-dark);
+  --body-background: var(--body-background-dark);
+  --element-background: var(--element-background-dark);
+  --border: var(--border-dark);
+  --pallet: var(--pallet-dark);
+  --pallet-hover: var(--pallet-hover-dark);
+}
